@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: grid;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+.alb{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+.alb img{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: wavy;
+    color: black;
+}
