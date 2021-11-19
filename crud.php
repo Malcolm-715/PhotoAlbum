@@ -46,7 +46,7 @@
                                                         <img src="<?php echo "uploads/".$row['image_url']?>" width="100px" height="100px" alt="image">
                                                     </td>
                                                     <td>
-                                                        <a href="" class="btn btn-info">EDIT</a>
+                                                        <a href="update.php?id=<?php echo $row['image_id']?>" class="btn btn-info">UPDATE</a>
                                                     </td>
                                                     <td>
                                                         <a href="" class="btn btn-danger">DELETE</a>

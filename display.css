@@ -1,8 +1,8 @@
 body{
     display: grid;
-    justify-content: center;
+    justify-content: cover;
     align-items: center;
-    flex-direction: grid;
+    flex-direction: grip;
     flex-wrap: wrap;
     min-height: 100vh;
 }
@@ -12,8 +12,8 @@ body{
     padding: 5px;
 }
 .alb img{
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 200px;
 }
 a{
     text-decoration: solid;
