@@ -6,7 +6,7 @@
     <title>Display</title>
 </head>
 <body>
-    <a href="home.php">&#8592</a>
+    <a href="home.php">BACK</a>
     <?php
         $sql = "select * from images order by image_id desc";
         $res = mysqli_query($conn, $sql);
@@ -17,5 +17,6 @@
                     <img src="uploads/<?=$images['image_url']?>">
                 </div>
     <?php } }?>
+    <a href="crud.php">GALLERY</a>
 </body>    
 </html>
