@@ -22,7 +22,7 @@
                         <?php
                             $conn = mysqli_connect('localhost', 'root','');
                             mysqli_select_db($conn, 'photo_album');
-                            $query = "select * from images";
+                            $query = "select * from images ";
                             $query_run = mysqli_query($conn, $query);
 
                         ?>
